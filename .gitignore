@@ -184,3 +184,7 @@ fer2013/*
 
 # But keep the folder itself
 !data/.gitkeep
+!fer2013/.gitkeep
+
+# Ignore large model files
+results/*.keras
