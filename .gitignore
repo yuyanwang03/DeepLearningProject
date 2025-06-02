@@ -178,8 +178,14 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Ignore everything in data/
+# Ignore everything in data/ and fer2013/
 data/*
+fer2013/*
+old_data/*
 
 # But keep the folder itself
 !data/.gitkeep
+!fer2013/.gitkeep
+
+# Ignore large model files
+results/*.keras

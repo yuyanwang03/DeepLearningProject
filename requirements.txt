@@ -66,6 +66,7 @@ requests==2.32.3
 rich==14.0.0
 scikit-learn==1.6.1
 scipy==1.13.1
+seaborn==0.13.2
 six==1.17.0
 stack-data==0.6.3
 sympy==1.14.0
